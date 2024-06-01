@@ -233,7 +233,7 @@ Homebrew installation is not supported. If you have issues with homebrew-install
 If you have `git` installed (requires git v1.7.10+):
 
 1. clone this repo in the root of your user profile
-    - `cd ~/` from anywhere then `git clone https://gitee.com/codeba/node-nvm.git .nvm`
+    - `cd ~/` from anywhere then `git clone https://cdn.jsdelivr.net/gh/code-ba/nvm@master/uninstall.sh .nvm`
 1. `cd ~/.nvm` and check out the latest version with `git checkout v0.39.7`
 1. activate `nvm` by sourcing it from your shell: `. ./nvm.sh`
 
@@ -252,7 +252,7 @@ For a fully manual install, execute the following lines to first clone the `nvm`
 
 ```sh
 export NVM_DIR="$HOME/.nvm" && (
-  git clone https://gitee.com/codeba/node-nvm.git "$NVM_DIR"
+  git clone https://cdn.jsdelivr.net/gh/code-ba/nvm@master/uninstall.sh "$NVM_DIR"
   cd "$NVM_DIR"
   git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
 ) && \. "$NVM_DIR/nvm.sh"
@@ -930,7 +930,7 @@ You have to make sure that the user directory name in `$HOME` and the user direc
 
 To change the user directory and/or account name follow the instructions [here](https://support.apple.com/en-us/HT201548)
 
-[1]: https://gitee.com/codeba/node-nvm.git
+[1]: https://cdn.jsdelivr.net/gh/code-ba/nvm@master/uninstall.sh
 [2]: https://github.com/nvm-sh/nvm/blob/v0.39.7/install.sh
 [3]: https://app.travis-ci.com/nvm-sh/nvm
 [4]: https://github.com/nvm-sh/nvm/releases/tag/v0.39.7
