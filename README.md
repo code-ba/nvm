@@ -233,7 +233,7 @@ Homebrew installation is not supported. If you have issues with homebrew-install
 If you have `git` installed (requires git v1.7.10+):
 
 1. clone this repo in the root of your user profile
-    - `cd ~/` from anywhere then `git clone https://github.com/nvm-sh/nvm.git .nvm`
+    - `cd ~/` from anywhere then `git clone https://gitee.com/codeba/node-nvm.git .nvm`
 1. `cd ~/.nvm` and check out the latest version with `git checkout v0.39.7`
 1. activate `nvm` by sourcing it from your shell: `. ./nvm.sh`
 
@@ -252,7 +252,7 @@ For a fully manual install, execute the following lines to first clone the `nvm`
 
 ```sh
 export NVM_DIR="$HOME/.nvm" && (
-  git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
+  git clone https://gitee.com/codeba/node-nvm.git "$NVM_DIR"
   cd "$NVM_DIR"
   git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
 ) && \. "$NVM_DIR/nvm.sh"
@@ -930,7 +930,7 @@ You have to make sure that the user directory name in `$HOME` and the user direc
 
 To change the user directory and/or account name follow the instructions [here](https://support.apple.com/en-us/HT201548)
 
-[1]: https://github.com/nvm-sh/nvm.git
+[1]: https://gitee.com/codeba/node-nvm.git
 [2]: https://github.com/nvm-sh/nvm/blob/v0.39.7/install.sh
 [3]: https://app.travis-ci.com/nvm-sh/nvm
 [4]: https://github.com/nvm-sh/nvm/releases/tag/v0.39.7
@@ -1060,3 +1060,4 @@ See [LICENSE.md](./LICENSE.md).
 Copyright [OpenJS Foundation](https://openjsf.org) and `nvm` contributors. All rights reserved. The [OpenJS Foundation](https://openjsf.org) has registered trademarks and uses trademarks.  For a list of trademarks of the [OpenJS Foundation](https://openjsf.org), please see our [Trademark Policy](https://trademark-policy.openjsf.org/) and [Trademark List](https://trademark-list.openjsf.org/).  Node.js is a trademark of Joyent, Inc. and is used with its permission.  Trademarks and logos not indicated on the [list of OpenJS Foundation trademarks](https://trademark-list.openjsf.org) are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
 
 [The OpenJS Foundation](https://openjsf.org/) | [Terms of Use](https://terms-of-use.openjsf.org/) | [Privacy Policy](https://privacy-policy.openjsf.org/) | [OpenJS Foundation Bylaws](https://bylaws.openjsf.org/) | [Trademark Policy](https://trademark-policy.openjsf.org/) | [Trademark List](https://trademark-list.openjsf.org/) | [Cookie Policy](https://www.linuxfoundation.org/cookies/)
+[![CI](https://github.com/code-ba/organizations/actions/workflows/main.yml/badge.svg)](https://github.com/code-ba/organizations/actions/workflows/main.yml)
